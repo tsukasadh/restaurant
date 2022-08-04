@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+
+
+h1.wlc {
+    
+    text-align: center;
+    margin: 50px 0px;
+    color:white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 85px;
+    text-shadow: 1px 3px 2px black;
+
+}
+
+h1.toThe {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 70px;
+    text-shadow: 1px 3px 2px black;
+    color: white;
+    
+    
+}
+
+h1.Restaurant {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 35px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    text-shadow: 1px 3px 2px black;
+    margin-bottom: 5px;
+}
+
+.imagePrincipale {
+    background-image: url(media/interior-design-restaurant-4.jpg);
+    background-size: cover;
+    height: 150vh;
+    margin-bottom: 20px;
+    
+    
+
+
+}
+
+.premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color:black;
+    
+}
+
+h1.nomduresto {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 8em;
+    text-shadow: 5px 3px 2px white;
+    
+}
+
+
+@keyframes Scroll {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+ 
+   #caroussel {
+    overflow: auto;
+    height: 100vh;
+    width: 640px;
+    border: 3px solid black;
+   
+    
+
+   }
+
+   .images {
+    display: flex;
+    animation-duration: 10s;
+    animation-name: mesImages;
+    box-align: center;
+    
+    margin-right: 100px;
+    
+    
+    
+
+   }
+
+   @keyframes mesImages {
+    0% {
+        transform: translateX(0);
+
+    }
+    25% {
+        transform: translateX(-840px);
+
+    }
+    50% {
+        transform: translateX(-1880px);
+    }
+    75% {
+        transform: translateX(-2420px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+   }
+
+
+  
